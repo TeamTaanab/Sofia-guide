@@ -1,31 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
-body{
+
+body {
     font-family: "Steelfish Rg", sans-serif;
+    font-size: 16px;
 }
-.header-main{
-    float: right;
-    margin: 25px 20px;
+
+.header-main {
     text-transform: uppercase;
 }
-.header-main nav ul li{
+
+.header-main h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+.header-main nav ul li {
     clear: both;
     list-style: none;
     display: inline-block;
     vertical-align: top;
 
 }
-.header-main a{
-    text-decoration: none;
-    margin:15px;
+
+.header-main nav ul {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    height: 10px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    border: 3px solid black;
 }
 
+.header-main a {
+    text-decoration: none;
+    margin:15px;
+    color: black;
 
-.title{
+}
+
+.title {
     display: inline-block;
     font-size: 70px;
     text-align: center;
