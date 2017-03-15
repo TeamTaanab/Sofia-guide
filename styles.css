@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: "Steelfish Rg", sans-serif;
+}
+.header-main{
+    float: right;
+    margin: 25px 20px;
+    text-transform: uppercase;
+}
+.header-main nav ul li{
+    clear: both;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.header-main a{
+    text-decoration: none;
+    margin:15px;
+}
+
+
+.title{
+    display: inline-block;
+    font-size: 70px;
+    text-align: center;
+    margin: 200px;
+}
