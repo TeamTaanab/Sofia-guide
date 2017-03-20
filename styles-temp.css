@@ -8,14 +8,131 @@
 body {
     font-family: "Steelfish Rg", sans-serif;
     font-size: 16px;
+    background: #171717;
+}
+header{
+    height: 125px;
+    padding-left: 34px;
+    padding-right: 44px;
 }
 
+.content{
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.nav-big{
+    float: right;
+    line-height: 124px;
+}
+
+.nav-big a {
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.nav-big a, .nav-big a:visited{
+    color: black;
+}
+
+.nav-big a:hover, .footer-nav > a:hover {
+    color: #7c0f4d;
+}
+.categories-all > a:hover{
+    color: #ae629f;
+}
+
+.nav-big a, .footer-nav > a, .categories-all > a {
+    transition: 0.3s;
+}
+
+.nav-big a{
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: black;
+}
+
+.logo-sm{
+    float: left;
+    height: 125px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.logo-sm-cont{
+    display: block;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    color: black;
+}
+
+.logo-sm .line1{
+    font-size: 19px;
+    letter-spacing: 2.8px;
+    line-height: 29px;
+}
+
+.logo-sm .line2{
+    font-size: 39px;
+}
+
+.logo-big{
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    position: absolute;
+    height: 400px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.logo-big-cont{
+    margin-top: -10px;
+    color: white;
+}
+
+.logo-big .line1{
+    font-size: 44px;
+    letter-spacing: 28px;
+    line-height: 120px;
+}
+
+.logo-big .line2{
+    font-size: 122px;
+    letter-spacing: 15px;
+}
+
+.header nav ul{
+    clear: both;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header nav ul li{
+    clear: both;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
 .header-main {
     text-transform: uppercase;
 }
 
 .header-main h1 {
     font-size: 4em;
+    text-align: center;
+}
+
+.nav-main {
+    width: 880px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -50,5 +167,63 @@ body {
     display: inline-block;
     font-size: 70px;
     text-align: center;
-    margin: 200px;
+    margin: 20px;
+    color: white;
+}
+footer{
+    height: 202px;
+    text-align: center;
+}
+
+.footer-nav{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.footer-nav > a{
+    color: black;
+    font-size: 14.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.copyright{
+    margin-top: 70px;
+    font-size: 14px;
+}
+.history-section article {
+    display: inline-block;
+    width: 800px;
+    vertical-align: top;
+    color: white;
+    border: 5px solid white;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 5px;
+    margin-left: 30px;
+}
+img {
+    width: 55%;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+main {
+    background: #171717;
+}
+.history-paragraph {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.history-titles {
+    font-size: 24px;
+    padding: 10px;
+}
+.img2 {
+    width: 95%;
+    margin: 20px;
 }
