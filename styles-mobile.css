@@ -78,13 +78,13 @@
     .menu-btn {
         position: relative;
         z-index: 101;
-        margin-top: 15px;
+        margin-top: 12px;
         margin-right: 10px;
         width: 25px;
-        height: 20px;
+        height: 24px;
         float: right;
         opacity: 1;
-        background: linear-gradient(to bottom, black 0%, black 5%, white 5%, white 35%, black 35%, black 40%, white 40%, white 70%, black 70%, black 75%, white 75% );
+        background: linear-gradient(to bottom, black 0%, black 8%, white 8%, white 38%, black 38%, black 46%, white 46%, white 76%, black 76%, black 84%, white 84% );
     }
 
     .mobile {
@@ -107,8 +107,9 @@
     .nav-mobile a {
         color: black;
         text-decoration: none;
+        font-weight: 600;
         display: block;
-        padding: 20px;
+        padding: 25px;
         text-transform: uppercase;
         letter-spacing: 1px;
         transition: opacity 0.5s;
