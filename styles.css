@@ -51,12 +51,14 @@ table {
     .mobile{
         display: none;
     }
+
 }
 
 @media only screen and (max-width: 767px){
     .desktop{
         display: none;
     }
+
 }
 
 body{
@@ -82,7 +84,7 @@ header{
 
 .nav-big{
     float: right;
-    line-height: 125px;
+    line-height: 124px;
 }
 
 .nav-big a {
@@ -310,11 +312,10 @@ footer{
     font-size: 14px;
 }
 
-.gallery {
+div.gallery {
+    margin-top: 5px;
 
     border: 6px solid white;
-    float: left;
-    width: 280px;
 }
 
 div.gallery img {
@@ -339,4 +340,32 @@ div.desc {
 
 .gallery p {
     margin-top: 10px;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 31%;
+    margin-left: 6.5px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 750px){
+    .responsive {
+        width: 47.99999%;
+        margin: 6px 0;
+
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .responsive {
+        width: 100%;
+        margin-left: -6px;
+
+    }
+
+    div.desc {
+        height: 50%;
+    }
 }

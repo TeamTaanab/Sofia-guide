@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Sofia landmarks</title>
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="styles-mobile.css">
 </head>
 <body>
 <div class="content">
-    <header>
+    <header class="desktop">
         <div class="logo-sm">
             <a href="#" class="logo-sm-cont">
                 <div class="line1">discover</div>
@@ -18,13 +18,32 @@
         <nav class="nav-big">
             <a href="index.html">home</a>
             <a href="history.html">history</a>
-            <a href="landmarks.html">landmarks</a>
+            <a href="#">landmarks</a>
             <a href="https://www.facebook.com/divinebulgaria/">contacts</a>
         </nav>
     </header>
-
+    <header class="mobile">
+        <nav class="nav-mobile">
+            <a href="index.html">home</a>
+            <a href="history.html">history</a>
+            <a href="#">landmarks</a>
+            <a href="https://www.facebook.com/divinebulgaria/">contacts</a>
+        </nav>
+    </header>
     <main>
 
+        <div class="responsive">
+            <div class="gallery">
+                <a href="https://softuni.bg/" target="_blank">
+                    <img src="images/SoftUni-Wallpaper.png" alt="SoftUni"></a>
+                <div class="desc">
+                    <h1>Software University</h1>
+                    <p>„Софтуерен университет“ ООД е основана през 2014 г. в гр. София от д-р Светлин Наков и Христо Тенчев. През януари 2014 г. стартира приемът на обучаващи се в учебното заведение. През есента на същата година, под патронажа на президента на България – Росен Плевнелиев, учебната година е официално открита.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
             <div class="gallery">
                 <img src="images/sofia-statue.jpg" alt="Statue of Sveta Sofia">
                 <div class="desc">
@@ -32,27 +51,47 @@
                     <p>The statue, erected in 2000, stands in a spot once occupied by a statue of Lenin. Sophia was considered too erotic and pagan to be referred to as a saint. 24 feet in height, the copper and bronze statue by the sculptor Georgi Chapkanov, stands on a 48 feet high pedestal. Adorned with the symbols of power (crown), fame (wreath) and wisdom (owl), the crown is also a reference to the Goddess of Fate – Tyche, inspired by the old emblem of Sofia dating back to 1900.</p>
                 </div>
             </div>
+        </div>
 
+        <div class="responsive">
             <div class="gallery">
                 <img src="images/national-assembly1.jpg" alt="National Assembly">
-                    <div class="desc">
-                        <h1>National Assembly of the Republic of Bulgaria</h1>
-                        <p>The National Assembly is the unicameral parliament and body of the legislative of Bulgaria.
-                            The National Assembly was established in 1879 with the Tarnovo Constitution.
-                            The National Assembly's main building has been proclaimed a monument of culture for its historic significance. Situated in downtown Sofia, it was designed in Neo-Renaissance style by Konstantin Jovanovic.</p>
-                    </div>
-            </div>
-
-
-
-            <div class="gallery">
-                <img src="images/vasil-levski-stadium.jpg" alt="National Assembly">
                 <div class="desc">
-                    <h1>Vasil Levski National Stadium</h1>
-                    <p>Named after Bulgarian national hero and revolutionary Vasil Levski, the stadium is the country's second largest stadium. The stadium has 43,230 seats and is located in the centre of Sofia, on the territory of the city's oldest and most famous park - the Borisova gradina. The Bulgaria national football team's home matches and the Bulgarian Cup finals are held at the venue, as well as athletics competitions. It was used as the home venue for Levski Sofia's Champions League games, and is often used for important derbies between the big clubs from Sofia, instead of their own home stadiums.</p>
+                    <h1>National Assembly of the Republic of Bulgaria</h1>
+                    <p>The National Assembly is the unicameral parliament and body of the legislative of Bulgaria. The National Assembly was established in 1879 with the Tarnovo Constitution. The National Assembly's main building has been proclaimed a monument of culture for its historic significance. Situated in downtown Sofia, it was designed in Neo-Renaissance style by Konstantin Jovanovic.</p>
                 </div>
             </div>
+        </div>
 
+        <div class="responsive">
+            <div class="gallery">
+                <img src="images/vasil-levski-stadium.jpg" alt="Vasil Levski National Stadium">
+                <div class="desc">
+                    <h1>Vasil Levski National Stadium</h1>
+                    <p>Named after Bulgarian national hero and revolutionary Vasil Levski, the stadium is the country's second largest stadium. The stadium has 43,230 seats and is located in the centre of Sofia, on the territory of the city's oldest and most famous park - the Borisova gradina. The Bulgaria national football team's home matches and the Bulgarian Cup finals are held at the venue, as well as athletics competitions.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+            <img src="images/6.jpg" alt="Alexandar Nevski">
+                <div class="desc">
+                <h1>Cathedral Saint Alexandar Nevski</h1>
+                <p>Completed in 1912, St. Alexander Nevsky Patriarchal Cathedral Stauropigial Memorial-Church is an impressive landmark in Sofia. The church was built as a memorial to the 200,000 Russian soldiers who died in the Russo-Turkish Liberation War (1877-1878).</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <img src="images/NDK-Sofia.jpg" alt="NDK">
+                <div class="desc">
+                    <h1>National Palace of Culture</h1>
+                    <p>The National Palace of Culture (Bulgarian: Национален дворец на културата, Natsionalen dvorets na kulturata; abbreviated as НДК, NDK), located in Sofia, the capital of Bulgaria, is the largest, multifunctional conference and exhibition centre in south-eastern Europe. It was opened in 1981 in celebration of Bulgaria's 1300th anniversary.</p>
+                </div>
+            </div>
+        </div>
 
 
     </main>
