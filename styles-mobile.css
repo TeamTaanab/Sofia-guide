@@ -80,10 +80,11 @@
         z-index: 101;
         margin-top: 10px;
         margin-right: 10px;
-        width: 32px;
-        height: 40px;
+        width: 28px;
+        height: 38px;
         float: right;
-        background: linear-gradient(to bottom, black 0%, black 10%, white 10%, white 30%, black 30%, black 40%, white 40%, white 60%, black 60%, black 70%, white 70%  );
+        opacity: 1;
+        background: linear-gradient(to bottom, black 0%, black 5%, white 5%, white 30%, black 30%, black 35%, white 35%, white 60%, black 60%, black 65%, white 65% );
     }
 
     .mobile {
@@ -99,7 +100,6 @@
         width: 100%;
         top: 0;
         transform: translateY(-100%);
-        transition: transform 0.5s cubic-bezier(0, 0.2, 0.3, 1);
         text-align: center;
         z-index: 100;
     }
@@ -119,7 +119,13 @@
         opacity: 1;
     }
 
+    #menu-mobile-btn:checked ~ .menu-btn{
+        transition: opacity 0.3s;
+        opacity: 0.5;
+    }
+
     #menu-mobile-btn:checked + .nav-mobile {
+        transition: transform 0.5s cubic-bezier(0, 0.2, 0.3, 1);
         transform: translateY(0%);
     }
 
