@@ -374,3 +374,15 @@ div.desc {
         height: 50%;
     }
 }
+
+.clearfix {
+    background-color: #171717;;
+    padding-bottom: 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}

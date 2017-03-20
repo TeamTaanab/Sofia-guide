@@ -5,13 +5,15 @@
     <meta name="author" content="Team Taanab @ SoftUni">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sofia landmarks</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles-mobile.css">
 </head>
 <body>
 <div class="content">
     <header class="desktop">
-        <div class="logo-sm">
+        <div
+                class="logo-sm">
             <a href="#" class="logo-sm-cont">
                 <div class="line1">discover</div>
                 <div class="line2">sofia</div>
@@ -25,12 +27,15 @@
         </nav>
     </header>
     <header class="mobile">
+        <input type="checkbox" id="menu-mobile-btn" />
         <nav class="nav-mobile">
+            <div class="nav-mobile-top-space"></div>
             <a href="index.html">home</a>
             <a href="history.html">history</a>
             <a href="#">landmarks</a>
             <a href="https://www.facebook.com/divinebulgaria/">contacts</a>
         </nav>
+        <label class="menu-btn" for="menu-mobile-btn"></label>
     </header>
     <main>
 
@@ -94,9 +99,18 @@
                 </div>
             </div>
         </div>
-
+        <div class="clearfix"></div>
 
     </main>
+    <footer>
+        <nav class="footer-nav">
+            <a href="index.html">home</a>
+            <a href="history.html">history</a>
+            <a href="#">landmarks</a>
+            <a href="https://www.facebook.com/divinebulgaria/">contacts</a>
+        </nav>
+        <p class="copyright">&copy 2017 Discover Sofia by Taanab - All rights reserved</p>
+    </footer>
 </div>
 </body>
 </html>
